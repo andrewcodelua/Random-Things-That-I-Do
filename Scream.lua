@@ -3,7 +3,7 @@
     local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
     local entity = Creator.createEntity({
-        Model = "https://github.com/fnaclol/sussy-bois/raw/main/FireBrand3.rbxm",
+        Model = "https://github.com/andrewcodelua/Random-Things-That-I-Do/blob/main/Scream.rbxm?raw=true",
         Speed = 400,
         DelayTime = 2,
         HeightOffset = 0,
