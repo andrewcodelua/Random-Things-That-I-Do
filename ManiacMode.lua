@@ -1,10 +1,10 @@
-local m = Instance.new("Hint")
-m.Parent = game.Workspace
-m.Name = mes
-m.Text = "Maniac Mode activated"
-wait(1)
-m.Text = "btw entities spawn every 2 min"
-wait(2)
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Maniac Mode activated"; -- the title (ofc)
+Text = "btw entities spawn every 2 minutes k?"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
 m:Destroy()
 while true do
   wait(120)
