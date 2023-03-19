@@ -1,8 +1,11 @@
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Maniac Mode activated.',true,2)
+local m = Instance.new("Message")
+m.Parent = game.Workspace
+m.Name = mes
+m.Text = "Maniac Mode activated"
 wait(1)
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'hope you were prepared',true,1)
-wait(1)
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'btw entities spawn every 2 min',true,2)
+m.text = "btw entities spawn every 2 min"
+wait(2)
+m:Destroy()
 while true do
   wait(120)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/andrewcodelua/Random-Things-That-I-Do/main/Scream.lua"))()
