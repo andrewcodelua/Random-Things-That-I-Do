@@ -1,4 +1,4 @@
-local m = Instance.new("Message")
+local m = Instance.new("Hint")
 m.Parent = game.Workspace
 m.Name = mes
 m.Text = "Maniac Mode activated"
