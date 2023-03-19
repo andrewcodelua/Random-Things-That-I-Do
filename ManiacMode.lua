@@ -3,7 +3,7 @@ m.Parent = game.Workspace
 m.Name = mes
 m.Text = "Maniac Mode activated"
 wait(1)
-m.text = "btw entities spawn every 2 min"
+m.Text = "btw entities spawn every 2 min"
 wait(2)
 m:Destroy()
 while true do
