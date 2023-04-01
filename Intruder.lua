@@ -14,7 +14,7 @@ wait(1)
         },
         Cycles = {
             Min = 4,
-            Max = 10,
+            Max = 4,
             WaitTime = 2,
         },
         CamShake = {
