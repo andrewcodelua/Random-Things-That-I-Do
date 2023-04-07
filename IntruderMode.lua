@@ -1,5 +1,4 @@
     loadstring(game:HttpGet("https://pastebin.com/raw/8SmKpVGF"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/KickFC.lua"))()
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Call Incoming", -- Title
@@ -289,5 +288,5 @@ Achievements.Get({
 wait(5)
 
 
-game.Players.LocalPlayer:Kick("You got rescued! If you wish to spectate, press Freecam (PC only)")
+game.Players.LocalPlayer:Kick("You got rescued! If you wish to play again, rejoin.")
 
