@@ -1,4 +1,5 @@
     loadstring(game:HttpGet("https://pastebin.com/raw/8SmKpVGF"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/KickFC.lua"))()
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Call Incoming", -- Title
@@ -286,7 +287,7 @@ Achievements.Get({
     Image = "https://i.ytimg.com/vi/HM6nQZ0r9ho/maxresdefault.jpg",
 })
 wait(5)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/KickFC.lua"))()
-wait(0.1)
+
+
 game.Players.LocalPlayer:Kick("You got rescued! If you wish to spectate, press Freecam (PC only)")
 
